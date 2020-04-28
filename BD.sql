@@ -117,7 +117,7 @@ alter table Produit
 CREATE USER 'Mariem'@'localhost' IDENTIFIED BY 'Admin123';
 GRANT ALL PRIVILEGES ON * . * TO 'Mariem'@'localhost';
 FLUSH PRIVILEGES;  
-;
+
 
 
 CREATE USER 'user'@'localhost' IDENTIFIED BY '123456';
